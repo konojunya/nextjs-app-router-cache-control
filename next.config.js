@@ -11,7 +11,10 @@ const nextConfig = {
             key: "Surrogate-Control",
             value: "public, s-maxage=1209600, stale-if-error=5",
           },
-          { key: "Accept-CH", value: "UA, Platform" },
+          {
+            key: "X-Surrogate-Control-From-Next",
+            value: "public, s-maxage=1209600, stale-if-error=5",
+          },
         ],
       },
     ];

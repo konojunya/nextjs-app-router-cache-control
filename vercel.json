@@ -1,0 +1,14 @@
+{
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, s-maxage=1" },
+        {
+          "key": "X-Cache-Control-From-Vercel-JSON",
+          "value": "public, s-maxage=1"
+        }
+      ]
+    }
+  ]
+}
