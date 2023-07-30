@@ -4,5 +4,5 @@ export default async function () {
     next: { revalidate: 60 * 60 * 24 },
   });
 
-  return <h1>revalidate=false</h1>;
+  return <h1>revalidate={60 * 60 * 24}</h1>;
 }
