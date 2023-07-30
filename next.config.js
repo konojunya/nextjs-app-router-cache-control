@@ -20,7 +20,7 @@ const nextConfig = {
           // https://nextjs.org/docs/app/api-reference/next-config-js/headers#cache-control
           { key: "Cache-Control", value: "public, s-maxage=2" },
           {
-            key: "X-Cache-Control-From-Vercel-JSON",
+            key: "X-Cache-Control-From-Next",
             value: "public, s-maxage=2",
           },
         ],
